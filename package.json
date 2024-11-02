@@ -1,0 +1,9 @@
+{
+	"name": "deno-cli-tutorial",
+	"type": "module",
+	"scripts": {
+		"dev": "deno --allow-read --allow-write main.ts --name=John --save",
+		"dev:kv": "deno --unstable --unstable-kv --allow-read --allow-write main.ts --name=John --save",
+		"build": "deno bundle main.ts main.js"
+	}
+}
